@@ -1,3 +1,7 @@
+dependencies:
+  override:
+    - npm -g install npm@latest
+    - npm install
 deployment:
   staging:
     branch: master
