@@ -1,6 +1,10 @@
 machine:
   node:
     version: 8.1.3
+dependencies:
+  pre:
+    - npm install -g bower
+    - bower install
 test:
   override:
     - ember test
