@@ -12,4 +12,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: peaceful-reef-39654
+      appname: stormy-anchorage-36440
